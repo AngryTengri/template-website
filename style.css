@@ -9,24 +9,22 @@ body {
   display: flex;
   flex-direction: column;
   font-family: system-ui, sans-serif;
-  background: #000000;
-  color: #111;
+  background: #ffffff;
+  color: #375910;
 }
 
 h1 {
   text-align: center;
   padding: 2rem 1rem;
   font-size: 3rem;
-  color: #ffdd00;
+  font: bold 2rem system-ui sans-serif;
 }
 
 h2 {
-  text-align:center;
-  padding: 2rem 2rem;
-  font-size: 1.5rem;
-  color: #ffdd00;
+  text-align: center;
+  padding: 1rem 1rem;
+  font-size: 2rem;
 }
-
 main {
   flex: 1;
   display: flex;
@@ -37,7 +35,7 @@ main {
 
 img {
   display: block;
-  max-width: 60vw;
-  max-height: 40vh;
+  max-width: 100vw;
+  max-height: 90vh;
   object-fit: contain;
 }
