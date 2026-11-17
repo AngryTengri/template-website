@@ -9,23 +9,28 @@ body {
   display: flex;
   flex-direction: column;
   font-family: system-ui, sans-serif;
-  background: #000000;
-  color: #111;
+  background: #f4f4f4;
+  color: #554f4f;
 }
 
 h1 {
   text-align: center;
   padding: 2rem 1rem;
-  font-size: 3rem;
-  color: #ffdd00;
+  font-size: 4rem;
 }
 
 h2 {
-  text-align:center;
-  padding: 2rem 2rem;
-  font-size: 1.5rem;
-  color: #ffdd00;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
 }
+
+h3{
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+
 
 main {
   flex: 1;
